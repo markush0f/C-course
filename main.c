@@ -2,18 +2,22 @@
 
 int main()
 {
+    int age;
+    float gpa;
+    char grade;
 
-    // This is my first program!
+    printf("Enter age: ");
+    scanf("%d", &age);
 
-    /*
-    This 
-    is
-    also 
-    comment
-    */
+    printf("Enter GPA: ");
+    scanf("%f", &gpa);
 
-    printf("Hello world!\n");
-    printf("Im so good!");
-    
+    printf("Enter grade: ");
+    scanf(" %c", &grade);
+
+    printf("\nAge: %d", age);
+    printf("\nGPA: %.2f", gpa);
+    printf("\nGrade: %c", grade);
+
     return 0;
 }
